@@ -4,6 +4,8 @@ export type Painting = {
     size?: string;
     medium: string;
     status: "For Sale" | "Sold";
+    price?: number;
+    printPriceFrom: number;
     image: string;
     description?: string;
   };
@@ -14,6 +16,7 @@ export type Painting = {
       title: "Cosmos",
       medium: "Oil on canvas",
       status: "Sold",
+      printPriceFrom: 85,
       image: "/paintings/cosmos.jpeg",
     },
     {
@@ -21,6 +24,7 @@ export type Painting = {
       title: "Golden Hour",
       medium: "Oil on canvas",
       status: "Sold",
+      printPriceFrom: 85,
       image: "/paintings/golden-hour.jpeg",
     },
     {
@@ -29,6 +33,8 @@ export type Painting = {
       size: "8 x 10 inches",
       medium: "Oil on canvas",
       status: "For Sale",
+      price: 400,
+      printPriceFrom: 85,
       image: "/paintings/in-bloom.jpeg",
     },
     {
@@ -37,6 +43,8 @@ export type Painting = {
       size: "8 x 10 inches",
       medium: "Oil on canvas",
       status: "For Sale",
+      price: 400,
+      printPriceFrom: 85,
       image: "/paintings/inner-fire.jpeg",
     },
     {
@@ -45,6 +53,8 @@ export type Painting = {
       size: "9 x 12 inches",
       medium: "Oil on canvas",
       status: "For Sale",
+      price: 550,
+      printPriceFrom: 85,
       image: "/paintings/iridescent.jpeg",
     },
     {
@@ -52,6 +62,7 @@ export type Painting = {
       title: "Pulse of Green",
       medium: "Oil on canvas",
       status: "Sold",
+      printPriceFrom: 85,
       image: "/paintings/pulse-of-green.jpeg",
     },
     {
@@ -60,6 +71,8 @@ export type Painting = {
       size: "18 x 24 inches",
       medium: "Oil on canvas",
       status: "For Sale",
+      price: 1200,
+      printPriceFrom: 85,
       image: "/paintings/soft-spoken.jpeg",
     },
     {
@@ -67,6 +80,7 @@ export type Painting = {
       title: "Twilight",
       medium: "Oil on canvas",
       status: "Sold",
+      printPriceFrom: 85,
       image: "/paintings/twilight.jpeg",
     },
     {
@@ -75,6 +89,8 @@ export type Painting = {
       size: "12 x 12 inches",
       medium: "Oil on canvas",
       status: "For Sale",
+      price: 700,
+      printPriceFrom: 85,
       image: "/paintings/whisper.jpeg",
     },
   ];

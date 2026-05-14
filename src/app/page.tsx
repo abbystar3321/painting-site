@@ -38,9 +38,17 @@ export default function Home() {
                 <h2 className="text-base font-medium text-slate-900">
                   {painting.title}
                 </h2>
-                <div className="text-xs uppercase tracking-wider text-slate-500 text-right shrink-0 leading-tight">
-                  <div>{painting.status}</div>
-                  <div className="mt-0.5 text-slate-400">Prints available</div>
+                <div className="text-right shrink-0 leading-tight">
+                  {painting.status === "For Sale" && painting.price ? (
+                    <div className="text-base font-medium text-slate-900">
+                      ${painting.price.toLocaleString()}
+                    </div>
+                  ) : (
+                    <div className="text-sm text-slate-500">Sold</div>
+                  )}
+                  <div className="mt-0.5 text-xs text-slate-400">
+                    Prints from ${painting.printPriceFrom}
+                  </div>
                 </div>
               </div>
             </Link>
