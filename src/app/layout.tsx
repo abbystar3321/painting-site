@@ -4,8 +4,27 @@ import "./globals.css";
 import FlyingButterfly from "./_components/FlyingButterfly";
 
 export const metadata: Metadata = {
-  title: "Abby Starmer Art — Oil Paintings",
-  description: "Original oil paintings by Abby Starmer.",
+  metadataBase: new URL("https://abbystarmerart.org"),
+  title: {
+    default: "Abby Starmer Art — Original Oil Paintings",
+    template: "%s — Abby Starmer Art",
+  },
+  description:
+    "Original oil paintings, prints, and stickers by Abby Starmer — faces and eyes that speak louder than words.",
+  openGraph: {
+    title: "Abby Starmer Art — Original Oil Paintings",
+    description:
+      "Original oil paintings, prints, and stickers by Abby Starmer — faces and eyes that speak louder than words.",
+    url: "https://abbystarmerart.org",
+    siteName: "Abby Starmer Art",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Abby Starmer Art — Original Oil Paintings",
+    description:
+      "Original oil paintings, prints, and stickers by Abby Starmer.",
+  },
 };
 
 export default function RootLayout({
