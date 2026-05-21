@@ -128,3 +128,97 @@
     @apply font-sans;
   }
 }
+
+/* --- Animations --- */
+
+/* Hero painting fades in softly when it loads */
+@keyframes heroFade {
+  0% {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animate-hero-fade {
+  animation: heroFade 1.4s ease-out both;
+}
+
+/* Slow gentle bounce for the scroll-down indicator */
+@keyframes bounceSlow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+.animate-bounce-slow {
+  animation: bounceSlow 2.4s ease-in-out infinite;
+}
+
+/* Wing flap for the floating butterfly */
+@keyframes wingFlap {
+  0%, 100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0.35);
+  }
+}
+.butterfly-wing-left,
+.butterfly-wing-right {
+  transform-box: fill-box;
+  transform-origin: right center;
+  animation: wingFlap 0.32s ease-in-out infinite;
+}
+.butterfly-wing-right {
+  transform-origin: left center;
+}
+
+/* Drift path: cross the screen, gently rising and falling.
+   The element using this animation gets a fixed start position; the
+   keyframes move it diagonally and vertically across the viewport. */
+@keyframes butterflyDrift {
+  0% {
+    transform: translate(-10vw, 50vh) rotate(8deg);
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  20% {
+    transform: translate(20vw, 30vh) rotate(-6deg);
+  }
+  40% {
+    transform: translate(45vw, 55vh) rotate(10deg);
+  }
+  60% {
+    transform: translate(65vw, 25vh) rotate(-8deg);
+  }
+  80% {
+    transform: translate(85vw, 50vh) rotate(6deg);
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(115vw, 40vh) rotate(-4deg);
+    opacity: 0;
+  }
+}
+.animate-butterfly-drift {
+  animation: butterflyDrift 38s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-hero-fade,
+  .animate-bounce-slow,
+  .butterfly-wing-left,
+  .butterfly-wing-right,
+  .animate-butterfly-drift {
+    animation: none !important;
+  }
+}
