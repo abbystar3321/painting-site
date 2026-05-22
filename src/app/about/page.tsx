@@ -22,22 +22,22 @@ export default function AboutPage() {
 
       <div className="space-y-5 text-slate-700 leading-relaxed">
         <p>
-          I'm Abby Starmer, an oil painter based in Brentwood. Outside of painting, I work as an internal auditor for the Tennessee Lottery, where integrity and attention to detail are a big part of my everyday life. I'm also currently pursuing my MBA in Risk Management, balancing career, school, motherhood, and creativity all at once. Both sides of my work influence how I see the world and the way I approach my art.
+          I&apos;m Abby Starmer, an oil painter based in Brentwood. Outside of painting, I work as an internal auditor for the Tennessee Lottery, where integrity and attention to detail are a big part of my everyday life. I&apos;m also currently pursuing my MBA in Risk Management, balancing career, school, motherhood, and creativity all at once. Both sides of my work influence how I see the world and the way I approach my art.
         </p>
         <p>
-          I've been painting since I was a child, and I've always been drawn to faces, especially eyes. To me, an eye can reveal more than words ever could. I'm fascinated by quiet expressions, fleeting emotions, and the moments people don't always realize they're showing. That's what I try to capture on canvas.
+          I&apos;ve been painting since I was a child, and I&apos;ve always been drawn to faces, especially eyes. To me, an eye can reveal more than words ever could. I&apos;m fascinated by quiet expressions, fleeting emotions, and the moments people don&apos;t always realize they&apos;re showing. That&apos;s what I try to capture on canvas.
         </p>
         <p>
           Oil paint is my favorite medium because it allows me to slow down and really work through a piece. I love the ability to layer, blend, soften, and rework until a painting feels honest. The process itself is calming, thoughtful, and deeply personal to me.
         </p>
         <p>
-          I'm also a single mom to two young kids, ages 3 and 5, who are often creating right alongside me at home. They've reminded me that art doesn't have to be perfect to be meaningful. Sometimes the best parts come from freedom, instinct, and a little bit of mess.
+          I&apos;m also a single mom to two young kids, ages 3 and 5, who are often creating right alongside me at home. They&apos;ve reminded me that art doesn&apos;t have to be perfect to be meaningful. Sometimes the best parts come from freedom, instinct, and a little bit of mess.
         </p>
         <p>
-          Outside of painting, I'm deeply involved in the EDM community and love attending music festivals, live shows, and creative events. I also enjoy vendoring and connecting with people through art, music, and shared experiences. That sense of creativity, expression, and community heavily inspires my work and the energy behind many of my pieces.
+          Outside of painting, I&apos;m deeply involved in the EDM community and love attending music festivals, live shows, and creative events. I also enjoy vendoring and connecting with people through art, music, and shared experiences. That sense of creativity, expression, and community heavily inspires my work and the energy behind many of my pieces.
         </p>
         <p>
-          I create original portraits, eye studies, and commissioned pieces, and prints of existing work are also available. If a piece connects with you, or you have an idea you'd like brought to life on canvas, I'd love to hear from you.
+          I create original portraits, eye studies, and commissioned pieces, and prints of existing work are also available. If a piece connects with you, or you have an idea you&apos;d like brought to life on canvas, I&apos;d love to hear from you.
         </p>
       </div>
     </main>
