@@ -137,13 +137,13 @@ export default function ShopPage() {
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-sm text-slate-600">
             <span>
-              <span className="text-slate-400">Small</span> from $28
+              <span className="text-slate-400">Small</span> from $35
             </span>
             <span>
-              <span className="text-slate-400">Medium</span> from $48
+              <span className="text-slate-400">Medium</span> from $55
             </span>
             <span>
-              <span className="text-slate-400">Large</span> from $75
+              <span className="text-slate-400">Large</span> from $90
             </span>
           </div>
         </div>
@@ -221,13 +221,13 @@ export default function ShopPage() {
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-sm text-slate-600">
             <span>
-              <span className="text-slate-400">Small</span> from $85
+              <span className="text-slate-400">Small</span> from $95
             </span>
             <span>
-              <span className="text-slate-400">Medium</span> from $135
+              <span className="text-slate-400">Medium</span> from $150
             </span>
             <span>
-              <span className="text-slate-400">Large</span> from $185
+              <span className="text-slate-400">Large</span> from $210
             </span>
           </div>
         </div>
